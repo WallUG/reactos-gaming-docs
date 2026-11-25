@@ -12,7 +12,7 @@ Bienvenido al proyecto **ReactOS Gaming**. Esta guía explica cómo replicar el 
 ## 2. Clonar la rama ReactOS Gaming
 
 ```bash
-git clone https://github.com/TU_USUARIO/reactos-gaming.git
+git clone https://github.com/WallUG/reactos-gaming.git
 cd reactos-gaming
 git checkout feat/nt6-integration
 ```

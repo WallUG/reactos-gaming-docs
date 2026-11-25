@@ -5,7 +5,7 @@ export const compatibility = [
     status: 'jugable',
     kernel: 'NT 6.x',
     fps: '30-60',
-    notes: 'Campaña jugable en 3D, salida limpia, restaura resolución al salir.'
+    notes: 'Campaña jugable en 3D, salida limpia, restaura resolucion al salir.'
   },
   {
     name: 'CPU-Z',
@@ -21,7 +21,7 @@ export const compatibility = [
     status: 'parcial',
     kernel: 'NT 6.x',
     fps: 'N/A',
-    notes: 'Detecta la GT 710, problemas con directorio %TEMP% en español (corregido).'
+    notes: 'Detecta la GT 710. Problema con directorio %TEMP% en espanol (corregido en es-ES.rc y hivedef.inf).'
   },
   {
     name: 'GPU Caps Viewer',
@@ -37,7 +37,7 @@ export const compatibility = [
     status: 'falla',
     kernel: 'NT 6.x',
     fps: 'N/A',
-    notes: 'Ventana transparente, Render #2 falla con 0xc00000e8.'
+    notes: 'Ventana transparente. Render #2 falla con 0xc00000e8 (Paso 15).'
   },
   {
     name: 'Chrome 158',
@@ -45,7 +45,7 @@ export const compatibility = [
     status: 'se-lanza',
     kernel: 'NT 6.x',
     fps: 'N/A',
-    notes: 'Carga hasta la red, faltan 18 APIs de kernel32/ws2_32.'
+    notes: 'Carga hasta la red. Faltan 18 APIs de kernel32.dll y ws2_32.dll.'
   },
   {
     name: 'glteardown.exe',

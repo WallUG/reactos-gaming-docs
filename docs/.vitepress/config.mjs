@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'ReactOS Gaming / NT6 — Wiki Oficial',
-  description: 'Documentación técnica de la rama ReactOS Gaming con soporte WDDM propietario NVIDIA y Dual Kernel NT 5.2 / NT 6.x',
+  title: 'ReactOS Gaming / NT6 — Documentación Técnica',
+  description: 'Documentación de la rama ReactOS Gaming con soporte WDDM propietario NVIDIA y Dual Kernel NT 5.2 / NT 6.x',
   lang: 'es-ES',
   base: '/reactos-gaming-docs/',
 
@@ -19,11 +19,11 @@ export default defineConfig({
   themeConfig: {
     logo: '/reactos-gaming-docs/favicon.svg',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TU_USUARIO/reactos-gaming-docs' }
+      { icon: 'github', link: 'https://github.com/WallUG/reactos-gaming-docs' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/TU_USUARIO/reactos-gaming-docs/edit/main/:path',
+      pattern: 'https://github.com/WallUG/reactos-gaming-docs/edit/main/:path',
       text: 'Sugerir cambios en esta página'
     },
 
@@ -39,11 +39,11 @@ export default defineConfig({
       { text: 'Compatibilidad', link: '/dashboard/compatibilidad/' },
       { text: 'Roadmap', link: '/dashboard/roadmap/' },
       { text: 'Kernel', link: '/kernel/vision-general/' },
-      { text: 'Gráficos y Gaming', link: '/gaming/win32k-gdi-user/' },
-      { text = 'Drivers', link: '/drivers/sistemas-archivos/' },
-      { text = 'Modo Usuario', link: '/usermode/ntdll-smss-csrss/' },
-      { text = 'Depuración', link: '/debug/arnes-regresion-vision-general/' },
-      { text = 'Desarrolladores', link: '/dev/empezar-aqui/' },
+      { text: 'Graficos y Gaming', link: '/gaming/win32k-gdi-user/' },
+      { text: 'Drivers', link: '/drivers/sistemas-archivos/' },
+      { text: 'Modo Usuario', link: '/usermode/ntdll-smss-csrss/' },
+      { text: 'Depuracion', link: '/debug/arnes-regresion-vision-general/' },
+      { text: 'Desarrolladores', link: '/dev/empezar-aqui/' }
     ],
 
     sidebar: {
@@ -59,13 +59,13 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Arquitectura del Núcleo y Arranque',
+          text: 'Arquitectura del Nucleo y Arranque',
           items: [
-            { text: 'Visión General', link: '/kernel/vision-general/' },
+            { text: 'Vision General', link: '/kernel/vision-general/' },
             { text: 'Dual Kernel NT 5.2 / NT 6.x', link: '/kernel/dual-kernel-nt52-nt6/' },
             { text: 'FreeLoader, Arranque y ACPI', link: '/kernel/freeloader-boot/' },
-            { text: 'HAL — Capa de Abstracción de Hardware', link: '/kernel/hal/' },
-            { text: 'Multinúcleo SMP y Mononúcleo UP', link: '/kernel/smp-multinucleo/' },
+            { text: 'HAL — Capa de Abstraccion de Hardware', link: '/kernel/hal/' },
+            { text: 'Multinucleo SMP y Mononucleo UP', link: '/kernel/smp-multinucleo/' },
             { text: 'Gestor de Memoria (Mm)', link: '/kernel/gestor-memoria/' },
             { text: 'Procesos e Hilos (Ps)', link: '/kernel/procesos-hilos/' },
             { text: 'I/O Manager y PnP', link: '/kernel/gestor-io-pnp/' },
@@ -76,7 +76,7 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Subsistema Gráfico y Stack Gaming',
+          text: 'Subsistema Grafico y Stack Gaming',
           items: [
             { text: 'win32k, GDI y USER', link: '/gaming/win32k-gdi-user/' },
             { text: 'Arquitectura GPU: XDDM vs WDDM', link: '/gaming/arquitectura-gpu-xddm-wddm/' },
@@ -90,7 +90,7 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Almacenamiento, Red y Periféricos',
+          text: 'Almacenamiento, Red y Perifericos',
           items: [
             { text: 'Sistemas de Archivos', link: '/drivers/sistemas-archivos/' },
             { text: 'Almacenamiento ATA/AHCI/NVMe', link: '/drivers/almacenamiento/' },
@@ -98,7 +98,7 @@ export default defineConfig({
             { text: 'Pila de Red TCP/IP', link: '/drivers/red-tcpip/' },
             { text: 'Drivers de Red y Wi-Fi', link: '/drivers/drivers-red-wifi/' },
             { text: 'Compatibilidad WDM', link: '/drivers/wdm-compatibilidad/' },
-            { text: 'Virtualización', link: '/drivers/virtualizacion/' }
+            { text: 'Virtualizacion', link: '/drivers/virtualizacion/' }
           ]
         },
         {
@@ -106,7 +106,7 @@ export default defineConfig({
           items: [
             { text: 'NTDLL, smss y csrss', link: '/usermode/ntdll-smss-csrss/' },
             { text: 'APIs Win32 y Cobertura NT', link: '/usermode/win32-apis/' },
-            { text: 'Integración con Wine', link: '/usermode/sincronizacion-wine/' },
+            { text: 'Integracion con Wine', link: '/usermode/sincronizacion-wine/' },
             { text: 'Compatibilidad 16 bits (NTVDM)', link: '/usermode/ntvdm-winevdm/' },
             { text: 'Explorador y Shell', link: '/usermode/shell-explorer/' },
             { text: 'ReactOS Applications Manager', link: '/usermode/rapps/' },
@@ -115,27 +115,27 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Depuración, QA y Arnés de Regresión',
+          text: 'Depuracion, QA y Arnés de Regresion',
           items: [
-            { text: 'Visión General del Arnés', link: '/debug/arnes-regresion-vision-general/' },
-            { text: 'Validación de Estructuras y APIs', link: '/debug/validacion-estructuras-apis/' },
-            { text: 'Validación de Subsistemas', link: '/debug/validacion-sistemas-subsistemas/' },
-            { text: 'Ejecutar y Extender el Arnés', link: '/debug/ejecutar-y-extender-arnes/' },
-            { text: 'Depuración con WinDbg y GDB', link: '/debug/depuracion-kernel-windbg-gdb/' }
+            { text: 'Vision General del Arnes', link: '/debug/arnes-regresion-vision-general/' },
+            { text: 'Validacion de Estructuras y APIs', link: '/debug/validacion-estructuras-apis/' },
+            { text: 'Validacion de Subsistemas', link: '/debug/validacion-sistemas-subsistemas/' },
+            { text: 'Ejecutar y Extender el Arnes', link: '/debug/ejecutar-y-extender-arnes/' },
+            { text: 'Depuracion con WinDbg y GDB', link: '/debug/depuracion-kernel-windbg-gdb/' }
           ]
         },
         {
-          text: 'Guía para Desarrolladores',
+          text: 'Guia para Desarrolladores',
           items: [
-            { text: 'Empezar Aquí', link: '/dev/empezar-aqui/' },
+            { text: 'Empezar Aqui', link: '/dev/empezar-aqui/' },
             { text: 'Entorno RosBE', link: '/dev/rosbe-entorno/' },
-            { text: 'Compilación con CMake', link: '/dev/compilacion-cmake/' },
-            { text: 'Estructura del Código', link: '/dev/estructura-codigo/' },
+            { text: 'Compilacion con CMake', link: '/dev/compilacion-cmake/' },
+            { text: 'Estructura del Codigo', link: '/dev/estructura-codigo/' },
             { text: 'Pruebas y Test Suite', link: '/dev/pruebas-test-suite/' },
-            { text: 'Guía de Pull Requests', link: '/dev/guia-pull-requests/' },
+            { text: 'Guia de Pull Requests', link: '/dev/guia-pull-requests/' },
             { text: 'Reportar Bugs', link: '/dev/reportar-bugs/' },
             { text: 'Arquitectura x64 y ARM', link: '/dev/arquitectura-x64-arm/' },
-            { text: 'Glosario Técnico', link: '/dev/glosario-recursos/' }
+            { text: 'Glosario Tecnico', link: '/dev/glosario-recursos/' }
           ]
         }
       ]

@@ -1,21 +1,21 @@
 export const subsystems = [
   {
     id: 'kernel-core',
-    name: 'Núcleo Core (NT 5.2 / NT 6.x)',
+    name: 'Nucleo Core (NT 5.2 / NT 6.x)',
     status: 'implementado',
     progress: 85,
     description: 'Gestor de memoria, procesos, hilos, I/O, objetos y registro.'
   },
   {
     id: 'smp',
-    name: 'Multinúcleo SMP / Mononúcleo UP',
+    name: 'Multinucleo SMP / Mononucleo UP',
     status: 'implementado',
     progress: 100,
-    description: 'Soporte completo para múltiples núcleos y un solo núcleo.'
+    description: 'Soporte completo para multiples nucleos y un solo nucleo.'
   },
   {
     id: 'hal',
-    name: 'HAL — Capa de Abstracción de Hardware',
+    name: 'HAL — Capa de Abstraccion de Hardware',
     status: 'implementado',
     progress: 90,
     description: 'ACPI, APIC, temporizadores y enrutamiento de interrupciones.'
@@ -25,7 +25,7 @@ export const subsystems = [
     name: 'WDDM — Miniport NVIDIA 365.19',
     status: 'parcial',
     progress: 60,
-    description: 'Driver propietario cargado, ejecución de comandos, pero sin lectura de RAM.'
+    description: 'Driver propietario cargado, ejecucion de comandos, pero sin lectura de RAM.'
   },
   {
     id: 'opengl',
@@ -74,14 +74,14 @@ export const subsystems = [
     name: 'win32k.sys — GDI y USER',
     status: 'implementado',
     progress: 80,
-    description: 'Escritorio funcional, presentación por CPU vía PRAMIN.'
+    description: 'Escritorio funcional, presentacion por CPU via PRAMIN.'
   },
   {
     id: 'arnes-regresion',
-    name: 'Arnés de Regresión Propio',
+    name: 'Arnes de Regresion Propio',
     status: 'implementado',
     progress: 90,
-    description: 'Validación de estructuras, APIs y subsistemas NT 5.2 / 6.x.'
+    description: 'Validacion de estructuras, APIs y subsistemas NT 5.2 / 6.x.'
   }
 ]
 

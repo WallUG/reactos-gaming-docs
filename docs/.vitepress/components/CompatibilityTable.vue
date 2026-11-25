@@ -8,7 +8,7 @@
         v-model="searchQuery"
       />
       <div class="filter-chips">
-        <span class="chip" :class="{ active: kernelFilter === 'todos' }" @click="kernelFilter = 'todos'">Todos los núcleos</span>
+        <span class="chip" :class="{ active: kernelFilter === 'todos' }" @click="kernelFilter = 'todos'">Todos los nucleos</span>
         <span class="chip" :class="{ active: kernelFilter === 'NT 6.x' }" @click="kernelFilter = 'NT 6.x'">NT 6.x</span>
         <span class="chip" :class="{ active: kernelFilter === 'NT 5.2' }" @click="kernelFilter = 'NT 5.2'">NT 5.2</span>
         <span class="chip" :class="{ active: kernelFilter === 'Ambos' }" @click="kernelFilter = 'Ambos'">Ambos</span>
@@ -19,9 +19,9 @@
       <thead>
         <tr>
           <th>Programa / Juego</th>
-          <th>Versión</th>
+          <th>Version</th>
           <th>Estado</th>
-          <th>Núcleo</th>
+          <th>Nucleo</th>
           <th>FPS</th>
           <th>Notas</th>
         </tr>

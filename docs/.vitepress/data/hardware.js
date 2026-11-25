@@ -9,7 +9,7 @@ export const hardware = {
     cores: 1,
     threads: 1,
     status: 'ok',
-    notes: 'Mononúcleo UP, kernel ntoskrnlmp.'
+    notes: 'Mononucleo UP, kernel ntoskrnlmp.'
   },
   gpu: {
     name: 'NVIDIA GeForce GT 710',
@@ -31,7 +31,7 @@ export const hardware = {
     name: 'Realtek ALC662',
     driver: 'RTKVHDA + portcls WaveRT',
     status: 'ok',
-    notes: 'Sin Código 10, audio funcionando en placa real.'
+    notes: 'Sin Codigo 10, audio funcionando en placa real.'
   },
   ram: {
     maxSupported: '4 GB (PAE)',
