@@ -34,6 +34,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Inicio', link: '/' },
+      { text: 'Mapa del Sistema', link: '/mapa-sistema/' },
       { text: 'Dashboard', link: '/dashboard/estado-sistemas/' },
       { text: 'Hardware', link: '/dashboard/hardware/' },
       { text: 'Compatibilidad', link: '/dashboard/compatibilidad/' },
