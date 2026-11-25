@@ -1,0 +1,78 @@
+name: Bug Report
+description: Reporta un fallo o comportamiento inesperado en ReactOS Gaming
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Usa esta plantilla para reportar fallos en el núcleo, WDDM, controladores o subsistemas de ReactOS Gaming.
+
+  - type: input
+    attributes:
+      label: Versión / Commit
+      placeholder: Ej: 9fad9f1af4a o fecha del build
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Núcleo afectado
+      placeholder: Ej: NT 5.2 (UP/SMP), NT 6.x, o ambos
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Gravedad
+      options:
+        - Bloqueante (no arranca / BSOD)
+        - Alto (fallo funcional importante)
+        - Medio (fallo menor o visual)
+        - Bajo (estético o cosmetico)
+      default: 1
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Pasos para reproducir
+      placeholder: Describe los pasos exactos para reproducir el fallo.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Comportamiento esperado
+      placeholder: ¿Qué debería pasar?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Comportamiento actual
+      placeholder: ¿Qué está pasando en realidad?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Logs de WinDbg / GDB / Serie
+      placeholder: Pega aquí el log completo del puerto serie, backtraces, volcados de kernel o capturas de WinDbg/GDB.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Especificaciones de hardware
+      placeholder: Placa base, CPU, GPU, RAM, controladores instalados.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Información adicional
+      options:
+        - label: He probado en máquina real
+        - label: He probado en QEMU / VirtualBox
+        - label: He ejecutado el arnés de regresión

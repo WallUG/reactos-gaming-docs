@@ -1,0 +1,67 @@
+name: Compatibility Report
+description: Reporta un juego o programa probado para sumar a la matriz de compatibilidad
+title: "[Compat] "
+labels: ["compatibility", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Usa esta plantilla para reportar juegos o programas que hayas probado en ReactOS Gaming. La información se agrega a la matriz de compatibilidad del dashboard.
+
+  - type: input
+    attributes:
+      label: Nombre del programa / juego
+      placeholder: Ej: Halo Combat Evolved, CPU-Z, GPU-Z
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Versión
+      placeholder: Ej: 1.0, 2.07.0
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Estado
+      options:
+        - Se lanza (inicia pero no es jugable)
+        - Jugable (se puede jugar con limitaciones)
+        - Parcial (funciona parcialmente)
+        - Falla (no se lanza o crashea inmediatamente)
+      default: 1
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Núcleo probado
+      options:
+        - NT 5.2 (Server 2003)
+        - NT 6.x (Vista/7+)
+        - Ambos
+      default: 2
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: FPS / Rendimiento
+      placeholder: Ej: 30-60 fps, 15 fps estable
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Notas y configuración
+      placeholder: Configuración gráfica, resolución, parches aplicados, problemas conocidos.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Especificaciones de hardware de prueba
+      placeholder: GPU, CPU, RAM usada para la prueba.
+    validations:
+      required: true

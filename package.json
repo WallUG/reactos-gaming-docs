@@ -1,0 +1,20 @@
+{
+  "name": "reactos-gaming-docs",
+  "version": "1.0.0",
+  "description": "Portal Oficial, Dashboard Técnico y Wiki de Desarrollo — ReactOS Gaming (rama feat/nt6-integration)",
+  "license": "GPL-2.0-only",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vitepress build",
+    "docs:dev": "vitepress dev",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0",
+    "vue": "^3.3.4"
+  },
+  "vitepress": {
+    "title": "ReactOS Gaming / NT6 — Wiki Oficial",
+    "description": "Documentación técnica de la rama ReactOS Gaming con soporte WDDM propietario NVIDIA y Dual Kernel NT 5.2 / NT 6.x"
+  }
+}

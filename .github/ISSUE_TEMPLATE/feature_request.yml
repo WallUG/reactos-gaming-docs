@@ -1,0 +1,57 @@
+name: Feature Request
+description: Propón un nuevo subsistema o mejora para ReactOS Gaming
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Usa esta plantilla para proponer nuevas características, subsistemas o mejoras arquitectónicas.
+
+  - type: textarea
+    attributes:
+      label: Descripción de la propuesta
+      placeholder: ¿Qué quieres añadir o cambiar y por qué es importante para ReactOS Gaming?
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Área afectada
+      options:
+        - Núcleo (NT 5.2 / NT 6.x)
+        - Gráfico (WDDM, DirectX, OpenGL)
+        - Audio
+        - Red
+        - Almacenamiento
+        - Modo usuario
+        - Herramientas y pruebas
+        - Documentación
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Prioridad sugerida
+      options:
+        - Alta (bloquea el hito actual)
+        - Media (para el próximo hito)
+        - Baja (deseable, no urgente)
+      default: 1
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Alternativas consideradas
+      placeholder: ¿Has evaluado otras formas de resolver esto?
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: ¿Estás dispuesto a implementarlo?
+      options:
+        - label: Sí, puedo implementar esta característica
+        - label: No, solo es una sugerencia
