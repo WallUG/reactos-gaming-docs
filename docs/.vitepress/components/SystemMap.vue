@@ -50,12 +50,12 @@
       >
         <div class="layer-header">{{ layer.name }}</div>
         <div class="layer-modules">
-          <div
+          <a
             v-for="module in filteredModules(layer)"
             :key="module.id"
             class="module-card"
             :class="`module-${getStatusInfo(module.status).class.split('-')[0]}`"
-            @click="window.location.href = module.link"
+            :href="withBase(module.link)"
           >
             <div class="module-header">
               <span class="module-name">{{ module.name }}</span>
@@ -74,7 +74,7 @@
             </div>
             <div class="module-kernel">{{ module.kernel }}</div>
             <div class="module-summary">{{ module.summary }}</div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -83,6 +83,7 @@
 
 <script setup>
 import { ref, onMounted, watch } from 'vue'
+import { withBase } from 'vitepress'
 import { Chart } from 'chart.js'
 import { systemMapLayers, globalStats, getStatusInfo } from '../../.vitepress/data/systemMap.js'
 
@@ -315,12 +316,14 @@ function updateDonutChart() {
 }
 
 .module-card {
+  display: block;
   background: #0f172a;
   border: 1px solid #334155;
   border-radius: 0.375rem;
   padding: 0.75rem;
   cursor: pointer;
   transition: border-color 0.2s;
+  text-decoration: none;
 }
 
 .module-card:hover {
