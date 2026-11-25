@@ -37,27 +37,27 @@ ReactOS Gaming es un fork especializado de ReactOS orientado a juegos y acelerac
   <tr>
     <td><strong>Dashboard de Sistemas</strong></td>
     <td>Progreso detallado por capa, barras de progreso y gráficos comparativos.</td>
-    <td><a href="/dashboard/estado-sistemas/">Ver dashboard</a></td>
+    <td><a href="./dashboard/estado-sistemas.html">Ver dashboard</a></td>
   </tr>
   <tr>
     <td><strong>Soporte de Hardware</strong></td>
     <td>Matriz de componentes probados en la placa real (H81MHV3 + GT 710).</td>
-    <td><a href="/dashboard/hardware/">Ver hardware</a></td>
+    <td><a href="./dashboard/hardware.html">Ver hardware</a></td>
   </tr>
   <tr>
     <td><strong>Matriz de Compatibilidad</strong></td>
     <td>Juegos y programas probados con estado, FPS y notas técnicas.</td>
-    <td><a href="/dashboard/compatibilidad/">Ver compatibilidad</a></td>
+    <td><a href="./dashboard/compatibilidad.html">Ver compatibilidad</a></td>
   </tr>
   <tr>
     <td><strong>Hoja de Ruta</strong></td>
     <td>Metas hacia 0.5.0, 0.6.0 y 0.7.0: WDDM completo, DX11, Vulkan, x64.</td>
-    <td><a href="/dashboard/roadmap/">Ver roadmap</a></td>
+    <td><a href="./dashboard/roadmap.html">Ver roadmap</a></td>
   </tr>
   <tr>
     <td><strong>Guía para Desarrolladores</strong></td>
     <td>Cómo clonar, compilar con RosBE y enviar Pull Requests.</td>
-    <td><a href="/dev/empezar-aqui/">Ver guía</a></td>
+    <td><a href="./dev/empezar-aqui.html">Ver guía</a></td>
   </tr>
 </table>
 

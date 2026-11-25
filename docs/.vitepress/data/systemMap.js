@@ -10,7 +10,7 @@ export const systemMapLayers = [
         progress: 80,
         kernel: 'Dual',
         summary: 'Explorador de archivos y entorno de escritorio.',
-        link: '/usermode/shell-explorer/'
+        link: '/usermode/shell-explorer.html'
       },
       {
         id: 'shell32',
@@ -19,7 +19,7 @@ export const systemMapLayers = [
         progress: 55,
         kernel: 'Dual',
         summary: 'Explorador, carpetas y enlaces de shell.',
-        link: '/usermode/shell-explorer/'
+        link: '/usermode/shell-explorer.html'
       },
       {
         id: 'rapps',
@@ -28,7 +28,7 @@ export const systemMapLayers = [
         progress: 40,
         kernel: 'Dual',
         summary: 'ReactOS Applications Manager y catálogo gaming.',
-        link: '/usermode/rapps/'
+        link: '/usermode/rapps.html'
       },
       {
         id: 'cmd',
@@ -37,7 +37,7 @@ export const systemMapLayers = [
         progress: 85,
         kernel: 'Dual',
         summary: 'Intérprete de comandos de 32 bits.',
-        link: '/usermode/ntvdm-winevdm/'
+        link: '/usermode/ntvdm-winevdm.html'
       },
       {
         id: 'runtimes',
@@ -46,7 +46,7 @@ export const systemMapLayers = [
         progress: 0,
         kernel: 'Dual',
         summary: 'Entornos de ejecución .NET y Visual C++.',
-        link: '/usermode/runtimes/'
+        link: '/usermode/runtimes.html'
       }
     ]
   },
@@ -61,7 +61,7 @@ export const systemMapLayers = [
         progress: 85,
         kernel: 'Dual',
         summary: 'APIs de kernel, archivos, procesos, hilos y sincronización.',
-        link: '/usermode/win32-apis/'
+        link: '/usermode/win32-apis.html'
       },
       {
         id: 'user32',
@@ -70,7 +70,7 @@ export const systemMapLayers = [
         progress: 80,
         kernel: 'Dual',
         summary: 'Ventanas, mensajes, menús y controles.',
-        link: '/usermode/win32-apis/'
+        link: '/usermode/win32-apis.html'
       },
       {
         id: 'gdi32',
@@ -79,7 +79,7 @@ export const systemMapLayers = [
         progress: 75,
         kernel: 'Dual',
         summary: 'Dibujado GDI, fuentes y mapas de bits.',
-        link: '/usermode/win32-apis/'
+        link: '/usermode/win32-apis.html'
       },
       {
         id: 'ntdll',
@@ -88,7 +88,7 @@ export const systemMapLayers = [
         progress: 85,
         kernel: 'Dual',
         summary: 'Biblioteca nativa con syscalls y ETW.',
-        link: '/usermode/ntdll-smss-csrss/'
+        link: '/usermode/ntdll-smss-csrss.html'
       },
       {
         id: 'd3d',
@@ -97,7 +97,7 @@ export const systemMapLayers = [
         progress: 0,
         kernel: 'NT 6.x',
         summary: 'Capa de traducción Direct3D a OpenGL.',
-        link: '/gaming/directx-core/'
+        link: '/gaming/directx-core.html'
       },
       {
         id: 'opengl32',
@@ -106,7 +106,7 @@ export const systemMapLayers = [
         progress: 10,
         kernel: 'NT 6.x',
         summary: 'ICD OpenGL de NVIDIA (nvoglv32.dll) carga pero falla en Render #2.',
-        link: '/gaming/opengl-mesa/'
+        link: '/gaming/opengl-mesa.html'
       },
       {
         id: 'dsound',
@@ -115,7 +115,7 @@ export const systemMapLayers = [
         progress: 70,
         kernel: 'Dual',
         summary: 'DirectSound, API de audio para juegos.',
-        link: '/gaming/audio-multimedia/'
+        link: '/gaming/audio-multimedia.html'
       },
       {
         id: 'xinput',
@@ -124,7 +124,7 @@ export const systemMapLayers = [
         progress: 0,
         kernel: 'Dual',
         summary: 'APIs de entrada para mandos y videojuegos.',
-        link: '/gaming/input-gamepads/'
+        link: '/gaming/input-gamepads.html'
       }
     ]
   },
@@ -139,7 +139,7 @@ export const systemMapLayers = [
         progress: 85,
         kernel: 'Dual',
         summary: 'Session Manager, crea la primera sesión de usuario.',
-        link: '/usermode/ntdll-smss-csrss/'
+        link: '/usermode/ntdll-smss-csrss.html'
       },
       {
         id: 'csrss',
@@ -148,7 +148,7 @@ export const systemMapLayers = [
         progress: 80,
         kernel: 'Dual',
         summary: 'Client/Server Runtime Subsystem.',
-        link: '/usermode/ntdll-smss-csrss/'
+        link: '/usermode/ntdll-smss-csrss.html'
       },
       {
         id: 'lsass',
@@ -157,7 +157,7 @@ export const systemMapLayers = [
         progress: 75,
         kernel: 'Dual',
         summary: 'Autoridad de seguridad local y autenticación.',
-        link: '/usermode/servicios-red-seguridad/'
+        link: '/usermode/servicios-red-seguridad.html'
       },
       {
         id: 'ntvdm',
@@ -166,7 +166,7 @@ export const systemMapLayers = [
         progress: 30,
         kernel: 'Dual',
         summary: 'NT Virtual DOS Machine para aplicaciones de 16 bits.',
-        link: '/usermode/ntvdm-winevdm/'
+        link: '/usermode/ntvdm-winevdm.html'
       },
       {
         id: 'arnes',
@@ -175,7 +175,7 @@ export const systemMapLayers = [
         progress: 90,
         kernel: 'Dual',
         summary: 'Validación de estructuras, APIs y subsistemas NT 5.2 / 6.x.',
-        link: '/debug/arnes-regresion-vision-general/'
+        link: '/debug/arnes-regresion-vision-general.html'
       }
     ]
   },
@@ -190,7 +190,7 @@ export const systemMapLayers = [
         progress: 85,
         kernel: 'Dual',
         summary: 'Núcleo (Mm, Ps, Io, Ob, Cm, Cc, Se, Po).',
-        link: '/kernel/vision-general/'
+        link: '/kernel/vision-general.html'
       },
       {
         id: 'win32k',
@@ -199,7 +199,7 @@ export const systemMapLayers = [
         progress: 80,
         kernel: 'Dual',
         summary: 'Subsistema gráfico y de usuario en modo kernel.',
-        link: '/gaming/win32k-gdi-user/'
+        link: '/gaming/win32k-gdi-user.html'
       },
       {
         id: 'hal',
@@ -208,7 +208,7 @@ export const systemMapLayers = [
         progress: 90,
         kernel: 'Dual',
         summary: 'Capa de Abstracción de Hardware.',
-        link: '/kernel/hal/'
+        link: '/kernel/hal.html'
       },
       {
         id: 'smp',
@@ -217,7 +217,7 @@ export const systemMapLayers = [
         progress: 100,
         kernel: 'Dual',
         summary: 'Procesamiento multiprocesador simétrico y mononúcleo.',
-        link: '/kernel/smp-multinucleo/'
+        link: '/kernel/smp-multinucleo.html'
       }
     ]
   },
@@ -232,7 +232,7 @@ export const systemMapLayers = [
         progress: 60,
         kernel: 'NT 6.x',
         summary: 'Driver propietario NVIDIA 365.19 como miniport WDDM.',
-        link: '/gaming/arquitectura-gpu-xddm-wddm/'
+        link: '/gaming/arquitectura-gpu-xddm-wddm.html'
       },
       {
         id: 'hdaudio',
@@ -241,7 +241,7 @@ export const systemMapLayers = [
         progress: 85,
         kernel: 'Dual',
         summary: 'Clase de puerto de audio y HD Audio (RTKVHDA).',
-        link: '/gaming/audio-multimedia/'
+        link: '/gaming/audio-multimedia.html'
       },
       {
         id: 'filesystems',
@@ -250,7 +250,7 @@ export const systemMapLayers = [
         progress: 75,
         kernel: 'Dual',
         summary: 'Sistemas de archivos: FAT32, NTFS, Btrfs, Ext2/3/4.',
-        link: '/drivers/sistemas-archivos/'
+        link: '/drivers/sistemas-archivos.html'
       },
       {
         id: 'storage',
@@ -259,7 +259,7 @@ export const systemMapLayers = [
         progress: 70,
         kernel: 'Dual',
         summary: 'Controladores de almacenamiento SATA y NVMe.',
-        link: '/drivers/almacenamiento/'
+        link: '/drivers/almacenamiento.html'
       },
       {
         id: 'usb',
@@ -268,7 +268,7 @@ export const systemMapLayers = [
         progress: 60,
         kernel: 'Dual',
         summary: 'Pila USB: UHCI, OHCI, EHCI; xHCI pendiente.',
-        link: '/drivers/pila-usb/'
+        link: '/drivers/pila-usb.html'
       },
       {
         id: 'net',
@@ -277,7 +277,7 @@ export const systemMapLayers = [
         progress: 90,
         kernel: 'Dual',
         summary: 'Pila de red: NDIS 6, lwIP, Winsock, Realtek RTL8136.',
-        link: '/drivers/red-tcpip/'
+        link: '/drivers/red-tcpip.html'
       },
       {
         id: 'freeloader',
@@ -286,7 +286,7 @@ export const systemMapLayers = [
         progress: 85,
         kernel: 'Dual',
         summary: 'Gestor de arranque y carga del núcleo.',
-        link: '/kernel/freeloader-boot/'
+        link: '/kernel/freeloader-boot.html'
       }
     ]
   }

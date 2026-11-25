@@ -16,5 +16,8 @@
   "vitepress": {
     "title": "ReactOS Gaming / NT6 — Wiki Oficial",
     "description": "Documentación técnica de la rama ReactOS Gaming con soporte WDDM propietario NVIDIA y Dual Kernel NT 5.2 / NT 6.x"
+  },
+  "dependencies": {
+    "chart.js": "^4.6.2"
   }
 }

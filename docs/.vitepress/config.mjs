@@ -34,17 +34,17 @@ export default defineConfig({
 
     nav: [
       { text: 'Inicio', link: '/' },
-      { text: 'Mapa del Sistema', link: '/mapa-sistema/' },
-      { text: 'Dashboard', link: '/dashboard/estado-sistemas/' },
-      { text: 'Hardware', link: '/dashboard/hardware/' },
-      { text: 'Compatibilidad', link: '/dashboard/compatibilidad/' },
-      { text: 'Roadmap', link: '/dashboard/roadmap/' },
-      { text: 'Kernel', link: '/kernel/vision-general/' },
-      { text: 'Graficos y Gaming', link: '/gaming/win32k-gdi-user/' },
-      { text: 'Drivers', link: '/drivers/sistemas-archivos/' },
-      { text: 'Modo Usuario', link: '/usermode/ntdll-smss-csrss/' },
-      { text: 'Depuracion', link: '/debug/arnes-regresion-vision-general/' },
-      { text: 'Desarrolladores', link: '/dev/empezar-aqui/' }
+      { text: 'Mapa del Sistema', link: '/mapa-sistema.html' },
+      { text: 'Dashboard', link: '/dashboard/estado-sistemas.html' },
+      { text: 'Hardware', link: '/dashboard/hardware.html' },
+      { text: 'Compatibilidad', link: '/dashboard/compatibilidad.html' },
+      { text: 'Roadmap', link: '/dashboard/roadmap.html' },
+      { text: 'Kernel', link: '/kernel/vision-general.html' },
+      { text: 'Graficos y Gaming', link: '/gaming/win32k-gdi-user.html' },
+      { text: 'Drivers', link: '/drivers/sistemas-archivos.html' },
+      { text: 'Modo Usuario', link: '/usermode/ntdll-smss-csrss.html' },
+      { text: 'Depuracion', link: '/debug/arnes-regresion-vision-general.html' },
+      { text: 'Desarrolladores', link: '/dev/empezar-aqui.html' }
     ],
 
     sidebar: {
@@ -53,90 +53,90 @@ export default defineConfig({
           text: 'Portal y Dashboards',
           items: [
             { text: 'Inicio', link: '/' },
-            { text: 'Estado de Sistemas', link: '/dashboard/estado-sistemas/' },
-            { text: 'Soporte de Hardware', link: '/dashboard/hardware/' },
-            { text: 'Matriz de Compatibilidad', link: '/dashboard/compatibilidad/' },
-            { text: 'Hoja de Ruta', link: '/dashboard/roadmap/' }
+            { text: 'Estado de Sistemas', link: '/dashboard/estado-sistemas.html' },
+            { text: 'Soporte de Hardware', link: '/dashboard/hardware.html' },
+            { text: 'Matriz de Compatibilidad', link: '/dashboard/compatibilidad.html' },
+            { text: 'Hoja de Ruta', link: '/dashboard/roadmap.html' }
           ]
         },
         {
           text: 'Arquitectura del Nucleo y Arranque',
           items: [
-            { text: 'Vision General', link: '/kernel/vision-general/' },
-            { text: 'Dual Kernel NT 5.2 / NT 6.x', link: '/kernel/dual-kernel-nt52-nt6/' },
-            { text: 'FreeLoader, Arranque y ACPI', link: '/kernel/freeloader-boot/' },
-            { text: 'HAL — Capa de Abstraccion de Hardware', link: '/kernel/hal/' },
-            { text: 'Multinucleo SMP y Mononucleo UP', link: '/kernel/smp-multinucleo/' },
-            { text: 'Gestor de Memoria (Mm)', link: '/kernel/gestor-memoria/' },
-            { text: 'Procesos e Hilos (Ps)', link: '/kernel/procesos-hilos/' },
-            { text: 'I/O Manager y PnP', link: '/kernel/gestor-io-pnp/' },
-            { text: 'Object Manager y Registro', link: '/kernel/gestor-objetos-registro/' },
-            { text: 'Power Manager (Po)', link: '/kernel/gestor-energia/' },
-            { text: 'Security Reference Monitor y ASLR', link: '/kernel/seguridad-aslr/' },
-            { text: 'Cache Manager (Cc)', link: '/kernel/cache-manager/' }
+            { text: 'Vision General', link: '/kernel/vision-general.html' },
+            { text: 'Dual Kernel NT 5.2 / NT 6.x', link: '/kernel/dual-kernel-nt52-nt6.html' },
+            { text: 'FreeLoader, Arranque y ACPI', link: '/kernel/freeloader-boot.html' },
+            { text: 'HAL — Capa de Abstraccion de Hardware', link: '/kernel/hal.html' },
+            { text: 'Multinucleo SMP y Mononucleo UP', link: '/kernel/smp-multinucleo.html' },
+            { text: 'Gestor de Memoria (Mm)', link: '/kernel/gestor-memoria.html' },
+            { text: 'Procesos e Hilos (Ps)', link: '/kernel/procesos-hilos.html' },
+            { text: 'I/O Manager y PnP', link: '/kernel/gestor-io-pnp.html' },
+            { text: 'Object Manager y Registro', link: '/kernel/gestor-objetos-registro.html' },
+            { text: 'Power Manager (Po)', link: '/kernel/gestor-energia.html' },
+            { text: 'Security Reference Monitor y ASLR', link: '/kernel/seguridad-aslr.html' },
+            { text: 'Cache Manager (Cc)', link: '/kernel/cache-manager.html' }
           ]
         },
         {
           text: 'Subsistema Grafico y Stack Gaming',
           items: [
-            { text: 'win32k, GDI y USER', link: '/gaming/win32k-gdi-user/' },
-            { text: 'Arquitectura GPU: XDDM vs WDDM', link: '/gaming/arquitectura-gpu-xddm-wddm/' },
-            { text: 'DirectX Core', link: '/gaming/directx-core/' },
-            { text: 'OpenGL y Mesa 3D', link: '/gaming/opengl-mesa/' },
-            { text: 'Vulkan y DXVK', link: '/gaming/vulkan-dxvk/' },
-            { text: 'Audio y Multimedia', link: '/gaming/audio-multimedia/' },
-            { text: 'Input y Gamepads', link: '/gaming/input-gamepads/' },
-            { text: 'Optimizaciones Gaming', link: '/gaming/optimizaciones-gaming/' },
-            { text: 'Benchmarks', link: '/gaming/benchmarks/' }
+            { text: 'win32k, GDI y USER', link: '/gaming/win32k-gdi-user.html' },
+            { text: 'Arquitectura GPU: XDDM vs WDDM', link: '/gaming/arquitectura-gpu-xddm-wddm.html' },
+            { text: 'DirectX Core', link: '/gaming/directx-core.html' },
+            { text: 'OpenGL y Mesa 3D', link: '/gaming/opengl-mesa.html' },
+            { text: 'Vulkan y DXVK', link: '/gaming/vulkan-dxvk.html' },
+            { text: 'Audio y Multimedia', link: '/gaming/audio-multimedia.html' },
+            { text: 'Input y Gamepads', link: '/gaming/input-gamepads.html' },
+            { text: 'Optimizaciones Gaming', link: '/gaming/optimizaciones-gaming.html' },
+            { text: 'Benchmarks', link: '/gaming/benchmarks.html' }
           ]
         },
         {
           text: 'Almacenamiento, Red y Perifericos',
           items: [
-            { text: 'Sistemas de Archivos', link: '/drivers/sistemas-archivos/' },
-            { text: 'Almacenamiento ATA/AHCI/NVMe', link: '/drivers/almacenamiento/' },
-            { text: 'Pila USB', link: '/drivers/pila-usb/' },
-            { text: 'Pila de Red TCP/IP', link: '/drivers/red-tcpip/' },
-            { text: 'Drivers de Red y Wi-Fi', link: '/drivers/drivers-red-wifi/' },
-            { text: 'Compatibilidad WDM', link: '/drivers/wdm-compatibilidad/' },
-            { text: 'Virtualizacion', link: '/drivers/virtualizacion/' }
+            { text: 'Sistemas de Archivos', link: '/drivers/sistemas-archivos.html' },
+            { text: 'Almacenamiento ATA/AHCI/NVMe', link: '/drivers/almacenamiento.html' },
+            { text: 'Pila USB', link: '/drivers/pila-usb.html' },
+            { text: 'Pila de Red TCP/IP', link: '/drivers/red-tcpip.html' },
+            { text: 'Drivers de Red y Wi-Fi', link: '/drivers/drivers-red-wifi.html' },
+            { text: 'Compatibilidad WDM', link: '/drivers/wdm-compatibilidad.html' },
+            { text: 'Virtualizacion', link: '/drivers/virtualizacion.html' }
           ]
         },
         {
           text: 'Modo Usuario y Compatibilidad',
           items: [
-            { text: 'NTDLL, smss y csrss', link: '/usermode/ntdll-smss-csrss/' },
-            { text: 'APIs Win32 y Cobertura NT', link: '/usermode/win32-apis/' },
-            { text: 'Integracion con Wine', link: '/usermode/sincronizacion-wine/' },
-            { text: 'Compatibilidad 16 bits (NTVDM)', link: '/usermode/ntvdm-winevdm/' },
-            { text: 'Explorador y Shell', link: '/usermode/shell-explorer/' },
-            { text: 'ReactOS Applications Manager', link: '/usermode/rapps/' },
-            { text: 'Runtimes (.NET, VC++, OpenAL)', link: '/usermode/runtimes/' },
-            { text: 'Servicios de Red y Seguridad', link: '/usermode/servicios-red-seguridad/' }
+            { text: 'NTDLL, smss y csrss', link: '/usermode/ntdll-smss-csrss.html' },
+            { text: 'APIs Win32 y Cobertura NT', link: '/usermode/win32-apis.html' },
+            { text: 'Integracion con Wine', link: '/usermode/sincronizacion-wine.html' },
+            { text: 'Compatibilidad 16 bits (NTVDM)', link: '/usermode/ntvdm-winevdm.html' },
+            { text: 'Explorador y Shell', link: '/usermode/shell-explorer.html' },
+            { text: 'ReactOS Applications Manager', link: '/usermode/rapps.html' },
+            { text: 'Runtimes (.NET, VC++, OpenAL)', link: '/usermode/runtimes.html' },
+            { text: 'Servicios de Red y Seguridad', link: '/usermode/servicios-red-seguridad.html' }
           ]
         },
         {
           text: 'Depuracion, QA y Arnés de Regresion',
           items: [
-            { text: 'Vision General del Arnes', link: '/debug/arnes-regresion-vision-general/' },
-            { text: 'Validacion de Estructuras y APIs', link: '/debug/validacion-estructuras-apis/' },
-            { text: 'Validacion de Subsistemas', link: '/debug/validacion-sistemas-subsistemas/' },
-            { text: 'Ejecutar y Extender el Arnes', link: '/debug/ejecutar-y-extender-arnes/' },
-            { text: 'Depuracion con WinDbg y GDB', link: '/debug/depuracion-kernel-windbg-gdb/' }
+            { text: 'Vision General del Arnes', link: '/debug/arnes-regresion-vision-general.html' },
+            { text: 'Validacion de Estructuras y APIs', link: '/debug/validacion-estructuras-apis.html' },
+            { text: 'Validacion de Subsistemas', link: '/debug/validacion-sistemas-subsistemas.html' },
+            { text: 'Ejecutar y Extender el Arnes', link: '/debug/ejecutar-y-extender-arnes.html' },
+            { text: 'Depuracion con WinDbg y GDB', link: '/debug/depuracion-kernel-windbg-gdb.html' }
           ]
         },
         {
           text: 'Guia para Desarrolladores',
           items: [
-            { text: 'Empezar Aqui', link: '/dev/empezar-aqui/' },
-            { text: 'Entorno RosBE', link: '/dev/rosbe-entorno/' },
-            { text: 'Compilacion con CMake', link: '/dev/compilacion-cmake/' },
-            { text: 'Estructura del Codigo', link: '/dev/estructura-codigo/' },
-            { text: 'Pruebas y Test Suite', link: '/dev/pruebas-test-suite/' },
-            { text: 'Guia de Pull Requests', link: '/dev/guia-pull-requests/' },
-            { text: 'Reportar Bugs', link: '/dev/reportar-bugs/' },
-            { text: 'Arquitectura x64 y ARM', link: '/dev/arquitectura-x64-arm/' },
-            { text: 'Glosario Tecnico', link: '/dev/glosario-recursos/' }
+            { text: 'Empezar Aqui', link: '/dev/empezar-aqui.html' },
+            { text: 'Entorno RosBE', link: '/dev/rosbe-entorno.html' },
+            { text: 'Compilacion con CMake', link: '/dev/compilacion-cmake.html' },
+            { text: 'Estructura del Codigo', link: '/dev/estructura-codigo.html' },
+            { text: 'Pruebas y Test Suite', link: '/dev/pruebas-test-suite.html' },
+            { text: 'Guia de Pull Requests', link: '/dev/guia-pull-requests.html' },
+            { text: 'Reportar Bugs', link: '/dev/reportar-bugs.html' },
+            { text: 'Arquitectura x64 y ARM', link: '/dev/arquitectura-x64-arm.html' },
+            { text: 'Glosario Tecnico', link: '/dev/glosario-recursos.html' }
           ]
         }
       ]
